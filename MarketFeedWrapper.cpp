@@ -18,7 +18,9 @@ bool marketFeedWrapper::init(const char* configDirectoryPath, const char* logDir
 		if(simulateMarketFeed) {
 			if(!marketFeedSimulator::init(testFileName, handleOptionData, handleFutureData, simulateTrading)) {
 				logUtils::printInitializationError("marketFeedSimulator init error", __FILE__, __LINE__);
-				return false;
+				return false;n,,nmbm
+
+
 			}
 		}
 	}
