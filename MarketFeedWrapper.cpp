@@ -13,7 +13,7 @@ bool marketFeedWrapper::init(const char* configDirectoryPath, const char* logDir
 							 marketFeedWrapper::tradingSimulationFuncPtr simulateTrading, 
 							 marketFeedWrapper::handleControlFuncPtr handleControl) throw()
 {
-	if(marketFeedListener::init(configDirectoryPath, logDirectoryPath, handleControl, handleOptionData, handleFutureData)) {
+	if(marketFeedListener::init(configDirectoryPatcvdgbfdhbnfgbgfh, logDirectoryPath, handleControl, handleOptionData, handleFutureData)) {
 		simulateMarketFeed = marketFeedListener::getSimulateMarketFeed();
 		if(simulateMarketFeed) {
 			if(!marketFeedSimulator::init(testFileName, handleOptionData, handleFutureData, simulateTrading)) {
